@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu with Dropdown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="#services" class="dropbtn">Services</a>
+        <ul class="dropdown-content">
+          <li><a href="#web-design">Web Design</a></li>
+          <li><a href="#app-dev">App Development</a></li>
+          <li><a href="#soft-dev">Software Development</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#portfolio" class="dropbtn">Portfolio</a>
+        <ul class="dropdown-content">
+          <li><a href="#high-edu">Higher Education</a></li>
+          <li><a href="#consulting">Consulting</a></li>
+          <li><a href="#association">Association</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#about" class="dropbtn">About</a>
+        <ul class="dropdown-content">
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#other">Other</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="profile">
+      <img src=".vscode/1.png" alt="Profile Picture" class="profile-img">
+      <p class="greeting">Hello.....</p>
+    </div>
+  </section>
+
+  <section id="services">
+    
+    <h1><b>Services..</h1>
+    <p> --Details about services provided.</p>
+
+    <h2 id="web-design">Web Design</h2>
+    <p>--We create stunning and responsive web designs to ensure your online presence stands out.</p>
+    <h2 id="app-dev">App Development</h2>
+    <p>--Our team develops user-friendly and high-performance mobile applications.</p>
+    <h2 id="soft-dev">Software Development</h2>
+    <p>--We provide custom software development services tailored to your business needs.</p>
+    
+  </section>
+
+  <section id="portfolio">
+    <h1><b>Portfolio...</b></h1>
+    <p>Showcase of previous works and projects.</p>
+
+    <h2 id="high-edu">Higher Education</h2>
+    <p>--Projects and collaborations with higher education institutions.</p>
+    <h2 id="consulting">Consulting</h2>
+    <p>--Consulting services provided to various businesses and organizations.</p>
+    <h2 id="association">Association</h2>
+    <p>--Partnerships and associations with industry leaders.</p>
+  </section>
+  
+  <section id="about">
+    <h1>About Section</h1>
+    <p>Information about the company or individual.</p>
+
+    <h2 id="contact">Contact Me</h2>
+    <p>--Feel free to reach out to us through our contact form or email.</p>
+    <h2 id="other">Other</h2>
+    <p>--Additional information about our services and offerings.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
